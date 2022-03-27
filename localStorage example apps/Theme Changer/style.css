@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-image: url(./trianglify-lowres.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div{
+    background-color: #fff;
+    box-shadow: 5px 5px 15px 4px rgb(87, 87, 87);
+    border-radius: 15px;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 15px;
+    transition: all 0.4s;
+}
+
+h1{
+    text-align: center;
+
+}
+
+select{
+    width: 80%;
+    height: 30px;
+    margin: 20px auto;
+}
+
+.redbg{
+    background-color: rgb(255, 174, 174);
+}
+.bluebg{
+    background-color: rgb(174, 175, 255);
+}
+.greenbg{
+    background-color: rgb(183, 255, 174);
+}
+.yellowbg{
+    background-color: rgb(254, 255, 174);
+}
+.pinkbg{
+    background-color: rgb(255, 174, 248);
+}
